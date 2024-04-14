@@ -67,3 +67,4 @@ blends
 
 process_mesh
 worldgen
+*.glb
