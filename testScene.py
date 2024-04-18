@@ -235,5 +235,5 @@ forkObj.location[0] = cupObj.dimensions[0] / 2 + forkObj.dimensions[0] / 2 + 10
 # Position the knife to the right of the cup
 knifeObj.location[0] = -cupObj.dimensions[0] / 2 - knifeObj.dimensions[0] / 2 - 10
 
-export_path = os.path.join(os.getcwd(), "cup_dish.gltf")
+export_path = os.path.join(os.getcwd(), "/opt/public/models/cup_dish.gltf")
 bpy.ops.export_scene.gltf(filepath=export_path)
